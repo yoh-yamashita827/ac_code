@@ -15,4 +15,13 @@ else:
         else:
             tmp //= s[l]
     print(ans)
+
+# ans = 0
+# r = 0
+# for l in range(0,n):
+#     while a[r]-a[l] < m:
+#         r += 1
+#     ans = max(ans,r-l)
+
+# print(ans)
     
